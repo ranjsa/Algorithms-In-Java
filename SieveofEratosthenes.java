@@ -11,7 +11,6 @@ public class SieveofEratosthenes {
                 System.out.println(i);
             }
         }
-
     }
     private static void primeGenerator(long[] primeNumbers) {
         for (int i=3; i <= 1000000; i += 2) {
