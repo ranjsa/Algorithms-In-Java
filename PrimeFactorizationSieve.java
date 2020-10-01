@@ -10,7 +10,7 @@ public class PrimeFactorizationSieve {
         }
         for (int i=2; i <= maxN; i++) {
             if (array[i] == -1) {
-                for(int j = i; j <= maxN; j += i){
+                for(int j = i; j * j<= maxN; j += i){
                     if (array[j] == -1) {
                         array[j] = i;
                     }
